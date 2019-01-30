@@ -7,7 +7,6 @@ public class BasicValidationResult {
     }
 
     public boolean getSuccess() {
-    	System.out.println("Comment from Dinesh");
         return success;
     }
 
