@@ -18,13 +18,13 @@ public class BasicServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-    	System.out.println(" basic servlet post");
+    	System.out.println(" basic servlet post: Edited by Dinesh");
 
         PrintWriter out = response.getWriter();
         Gson gson = new Gson();
         
         response.setContentType("application/json; charset=utf-8");
-      //  response.setHeader("daat", "data");
+        //response.setHeader("daat", "data");
         //response.setIntHeader("Refresh", 15);
         response.setHeader("Access-Control-Allow-Origin", "*");
 
